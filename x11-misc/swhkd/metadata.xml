@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE
+pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>lyraile</name>
+    <email>iamoatiz@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    S(imple)W(ayland)H(ot)K(ey)D(aemon) is a display protocol-independent
+    hotkey daemon made in Rust.
+    swhkd uses an easy-to-use configuration system inspired by sxhkd so you
+    can easily add or remove hotkeys.
+
+    It also attempts to be a drop-in replacement for sxhkd, meaning, your
+    sxhkd config file is also compatible with swhkd.
+
+    Because swhkd can be used anywhere, the same swhkd config can be used
+    across Xorg or Waylanddesktops, and you can even use swhkd in a tty.
+  </longdescription>
+  <use>
+    <flag name="systemd">Enables <pkg>sys-apps/systemd</pkg> support</flag>
+  </use>
+</pkgmetadata>
